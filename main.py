@@ -1,6 +1,7 @@
 import os                                   #we import this library to work with the OS
 
-path = '/Users'                   #make sure to use '/' or you will get issues with some folders
+path = '/Program Files'                     #make sure to use '/' or you will get issues with some folders
+                                            #this can be changed to the folder you wish to get the sub-folders for
 
 directory_contents = os.listdir(path)       #create a variable that will have all the sub-folders in Program Files
 
